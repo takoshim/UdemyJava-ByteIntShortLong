@@ -22,11 +22,15 @@ public class Main {
         System.out.println("Short minimum value: " + myMinShortValue);
         System.out.println("Short maximum value: " + myMaxShortValue);
 
-    long myLongValue = 2_147_483_647_274L;
     long myMinLongValue = Long.MIN_VALUE;
     long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long minimum value: " + myMinLongValue);
         System.out.println("Long maximum value: " + myMaxLongValue);
+    long myLongValue = 2_147_483_647_274L;
         System.out.println("myLongValue: " + myLongValue);
+
+    int myNewIntValue = (myMinIntValue / 2);
+    byte myNewByteValue = (byte) (myMinByteValue / 2);
+    short myNewShortValue = (short) (myMinShortValue / 2);
     }
 }
