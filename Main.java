@@ -32,5 +32,11 @@ public class Main {
     int myNewIntValue = (myMinIntValue / 2);
     byte myNewByteValue = (byte) (myMinByteValue / 2);
     short myNewShortValue = (short) (myMinShortValue / 2);
+
+    byte myNewestByteValue = 100;
+    short myNewestShortValue = 30000;
+    int myNewestIntValue = 2000000000;
+    long myNewestTotal = (long) (myNewestByteValue + myNewestShortValue + myNewestIntValue) * 10 + 50000;
+        System.out.println("myNewestTotal: " + myNewestTotal);
     }
 }
